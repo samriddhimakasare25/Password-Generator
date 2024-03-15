@@ -60,16 +60,6 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
 * The string value then populates into the text area for the user using a UserInput function.
 * An event listener (onlick) has also been created for the copy to clipboard feauture. 
 
-### This project has media Queries for:
-* max-width: 980px 
-    * Adjusts body and container width
-* max-width: 786px
-    * Adjusts body and container width
-    * Adjusts buttons
-* max-width: 640px
-    * Adjusts body and container width
-    * Adjusts buttons to be centered and stacked
-
 ### To Execute File:
 > Open in browser
 
