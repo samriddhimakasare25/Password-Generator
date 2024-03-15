@@ -1,0 +1,98 @@
+* { 
+    margin: 0;
+    padding: 0;
+ 
+    box-sizing: border-box;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+body {
+    background-color: rgb(206, 173, 255);;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 2rem;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.titles {
+    padding: 2rem;
+}
+
+.inputBox {
+   
+    display: flex;
+    flex-direction: column;
+    border-radius: 1rem;
+    
+}
+
+.password-text-box {
+    height: 3rem;
+    font-size: 1rem;
+    border-radius: 1rem;
+    border: 3px solid rgb(207, 53, 25);
+}
+
+.generator {
+    background-color: tomato;
+    padding: 2rem;
+    border-radius: 1rem;
+}
+.copy-button {
+    border: 3px solid rgb(207, 53, 25);
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(218, 74, 49);
+    color: white;
+   padding:0.5rem;
+}
+
+.generate-button {
+    border: 3px solid rgb(207, 53, 25);
+    width: 100%;
+    font-size: 1rem;
+    border-radius: 1rem;
+    background-color: rgb(218, 74, 49);
+    color: white;
+}
+
+.slider {
+    -webkit-appearance: none;
+    width: 100%;
+    height: 15px;
+    border-radius: 5px;  
+    background: #d3d3d3;
+    outline: none;
+    opacity: 0.7;
+    -webkit-transition: .2s;
+    transition: opacity .2s;
+  }
+  
+  .slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%; 
+    background: rgb(218, 74, 49);
+    cursor: pointer;
+  }
+  
+  .slider::-moz-range-thumb {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+    background: rgb(218, 74, 49);
+    cursor: pointer;
+  }
+
+ 
+  
+ 

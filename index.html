@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style.css">
+    <title> Samriddhi's Password Generator</title>
+    <script defer src="app.js" ></script>
+</head>
+
+<body>
+    <div class="titles">
+        <h1> Samriddhi's Password Generator </h1>
+        <p1> Please click the preferences you'd like for your password generator. Then, click generate. </p1>
+    </div>
+
+    <div class="generator">
+
+        <div class="inputBox">
+            <input class="password-text-box" type="text" id="password" readonly
+                placeholder="Click Generate to generate password.">
+            <button class="copy-button" id="copy"> Copy to Clipbaord</button>
+        </div>
+
+        <div class="preferences">
+            <p> Choose your preferences here!</p>
+
+
+            <label>Password Length:</label>
+            <span id="sliderValue"></span>
+            <input type="range" min="1" max="30" value="8" class="slider" id="passwordSlider"> <br>
+
+            <input type="checkbox" id="capitalLetters" name="passwordSettings" value="A-Z">
+            <label for="capitalLetters">Include capital letters</label><br>
+
+            <input type="checkbox" id="lowerCaseLetters" name="passwordSettings" value="a-z">
+            <label for="css">Include lowercase letters</label><br>
+
+            <input type="checkbox" id="numbers" name="passwordSettings" value="numbers">
+            <label for="numbers"> Include numbers</label> <br>
+
+            <input type="checkbox" id="symbols" name="passwordSettings" value="symbols">
+            <label for="synbols"> Include symbols</label> <br>
+
+            <button class="generate-button" id="generateBtn">Generate</button>
+
+        </div>
+    </div>
+</body>
+
+</html>
