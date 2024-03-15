@@ -10,14 +10,6 @@ This project has been deployed to GitHub Pages. To get this project up and runni
 
 This project has been deployed to GitHub Pages. To get this project up and running, you can follow the deployment link. Or, download the sources files to use this as a template.
 
-* [GitHub Repository](https://github.com/jamierachael/Password-Generator)
-* [Deployed GitHub IO](https://jamierachael.github.io/Password-Generator/)
-* [Full Demo Video](https://drive.google.com/file/d/10da4Te-ywl3aBuG3pL4jRAxBcFI6w871/view)
-
-
-
-![Password-Generator Demo](assets/demo/gif.gif)
-
 ### Prerequisites
 
 To install this application, you will need a text editor. I recommend Visual Studio Code. 
@@ -30,24 +22,16 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
 * HTML and CSS and Javascript documents create a random password generator 
 * This project emphasizes the use of using Javascript to make dynamic changes to an HMTL document
 
-![](assets/Images/demo.PNG)
-
 ### This project has the following features: 
 * A generate button
     * This will send the user a series of prompts and confirms
     * After user data is collected, a random password will be generated using Javascript
 
-![](assets/Images/button.PNG)
-
 * A Textarea
     * This textarea will display the users password once it is generated
 
-![](assets/Images/text.PNG)
-
 * A Copy button 
     * This will copy the users password to the user's devices clipboard
-
-![](assets/Images/demo2.PNG)
 
 ### Psuedo Code and Project Requirements: 
 * The user will be prompted to choose from the following password criteria: 8 and 128 characters
@@ -61,7 +45,7 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
     * Event listener will determine the password output with function to populate the value into the test area.
 * As a bonus, the user should also have the option to click a button to copy the password to their clipboard.
     * Copy execCommand in event listener
-
+      
 ### This project has script features of:
 * Variable declaration area 
 * An event listener (onclick) called generatePassword
@@ -104,12 +88,5 @@ To install this code, download the zip file, or use GitHub's guidelines to clone
         * Two if/else if statements
         * One function outside of first event listener
 
-
 ## Authors
-
-* **Jamie Rachael Morris** - *Initial work* - [Git Hub Profile](https://github.com/jamierachael)
-* UNH Project Design
-
-## Acknowledgments
-
-* Hat tip to UNH for providing project parameters and code examples
+* **Samriddhi Makasaew ** - *Initial work* 
